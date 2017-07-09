@@ -6,5 +6,5 @@ declare const require;
 require("./style.scss");
 
 ReactDOM.render(
-    <App />, document.getElementById("app")
+  <App />, document.getElementById("app")
 );

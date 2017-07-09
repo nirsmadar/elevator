@@ -1,0 +1,12 @@
+.el-building {
+    display: flex;
+
+    .floors {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .el-elevator {
+      margin-left: 10px;
+    }
+}

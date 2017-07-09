@@ -1,11 +1,13 @@
 import * as React from "react";
+import Building from "./building/building.component";
 
 export default class App extends React.PureComponent<any, any> {
 
-    render() {
-        const f: number = 3;
-        return (
-            <div className="app">hi { f }</div>
-        )
-    }
+  render() {
+    return (
+      <div className="el-app">
+        <Building />
+      </div>
+    )
+  }
 }
